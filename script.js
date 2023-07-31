@@ -102,4 +102,7 @@ newGame.addEventListener('click', () => {
   p2_current.innerHTML = '0';
   p2_total.innerHTML = '0';
   change_image('dice-1.png');
+  p1_page.classList.remove('player--winner');
+  p2_page.classList.remove('player--winner');
+  p1_page.classList.add('player--active');
 });
